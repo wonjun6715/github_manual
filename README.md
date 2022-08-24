@@ -52,14 +52,22 @@ git remote rename <기존이름> <변경할이름>
 <li>본문은 어떻게보다 무엇을, 왜에 맞춰 작성하기</li>
 </pre>
 
+# 오류 해결 방법
 ### git push 오류 해결
 <pre>
 git push 명령어 실행시 Updates were rejected because the tip of your current branch is behind its remote.. 와 같은 오류 발생<br>
 github repository를 생성할 때 READM.md를 생성했기 때문에 발생하는 오류라고 함.<br>
 임시방편으로 +를 이용하여 해결이 가능 <br>
 ex> git push -u origin +main(master)
-
 </pre>
+
+### .gitignore 파일 추가시
+<pre>
+repository에 파일이 있는 상태에서 .gitignore 파일을 push 해도 이미 자신의 깃허브에 올라가 있는 파일들은 ignore 되지 않는다.
+따라서 수동으로 해당 파일들을 버전 관리에서 제외해줘야 한다.
+git rm <파일명> : 원격 저장소와 로컬 저장소에 있는 파일 삭제
+git rm --cached <파일명> : 원격 저장소에 있는 파일만 삭제, 로컬 저장소에서는 삭제x
+<pre>
 
 
 
