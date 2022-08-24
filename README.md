@@ -24,8 +24,8 @@
 </pre>
 
 ## 기존 repository remote 제거 - vscode에서 원격 저장소가 이미 연결되어 있을 때
-#### 기존 repository 내용 제거
 <pre>
+기존 repository 내용 제거
 <ol>
 <li>git pull</li>
 <li>git add .</li>
