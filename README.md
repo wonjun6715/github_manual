@@ -22,3 +22,23 @@
 <li>git push</li>
 </ol>
 </pre>
+
+## 기존 repository remote 제거 - vscode에서 원격 저장소가 이미 연결되어 있을 때
+<pre>
+#### 기존 repository 내용 제거
+<ol>
+<li>git pull</li>
+<li>git add .</li>
+<li>git commit -m 'clean push'</li>
+#### 기존 repository 제거
+git remote remove origin (origin은 별칭이므로 자기 설정에 맞게 변경) *대부분 별칭은 origin으로 설정함
+</ol>
+</pre>
+
+## 원격 저장소 이름 변경
+<pre>
+git remote rename <기존이름> <변경할이름>
+</pre>
+
+
+
