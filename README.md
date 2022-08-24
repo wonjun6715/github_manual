@@ -4,6 +4,7 @@
 <pre>
 <ol>
 <li>사용할 깃허브 계정에 repository 생성</li>
-<li></li>
+<li>git init</li> git 
+<li>git add <파일명></li>
 </ol>
 </pre>
