@@ -31,9 +31,10 @@
 <li>git add .</li>
 <li>git commit -m 'clean push'</li>
 </ol>
+기존 repository 제거
+<li>git remote remove origin (origin은 별칭이므로 자기 설정에 맞게 변경) *대부분 별칭은 origin으로 설정함</li>
 </pre>
-#### 기존 repository 제거
-git remote remove origin (origin은 별칭이므로 자기 설정에 맞게 변경) *대부분 별칭은 origin으로 설정함
+
 
 
 
