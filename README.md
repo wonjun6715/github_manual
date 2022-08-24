@@ -63,10 +63,10 @@ ex> git push -u origin +main(master)
 
 ### .gitignore 파일 추가시
 <pre>
-repository에 파일이 있는 상태에서 .gitignore 파일을 push 해도 이미 자신의 깃허브에 올라가 있는 파일들은 ignore 되지 않는다.
-따라서 수동으로 해당 파일들을 버전 관리에서 제외해줘야 한다.
-git rm <파일명> : 원격 저장소와 로컬 저장소에 있는 파일 삭제
-git rm --cached <파일명> : 원격 저장소에 있는 파일만 삭제, 로컬 저장소에서는 삭제x
+repository에 파일이 있는 상태에서 .gitignore 파일을 push 해도 이미 자신의 깃허브에 올라가 있는 파일들은 ignore 되지 않는다.<br>
+따라서 수동으로 해당 파일들을 버전 관리에서 제외해줘야 한다.<br>
+git rm <파일명> : 원격 저장소와 로컬 저장소에 있는 파일 삭제<br>
+git rm --cached <파일명> : 원격 저장소에 있는 파일만 삭제, 로컬 저장소에서는 삭제x<br>
 <pre>
 
 
