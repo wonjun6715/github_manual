@@ -56,7 +56,6 @@ git remote rename <기존이름> <변경할이름>
 <pre>
 git push 명령어 실행시 Updates were rejected because the tip of your current branch is behind its remote.. 와 같은 오류 발생<br>
 github repository를 생성할 때 READM.md를 생성했기 때문에 발생하는 오류라고 함.<br>
-<br>
 임시방편으로 +를 이용하여 해결이 가능 <br>
 ex> git push -u origin +main(master)
 
