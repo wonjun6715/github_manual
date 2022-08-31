@@ -40,6 +40,14 @@
 git remote rename <기존이름> <변경할이름>
 </pre>
 
+## 명령어 정리
+<pre>
+<ol>
+<li>git log : 커밋 조회하기</li>
+<li></li>
+</ol>
+</pre>
+
 ## 좋은 커밋 메시지의 8가지 규칙
 <pre>
 <li>제목과 본문을 빈 행으로 구분한다</li>
