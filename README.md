@@ -5,7 +5,7 @@
 <pre>
 <ol>
 <li>사용할 깃허브 계정에 repository 생성</li>
-<li>git init : git 초기화</li>
+<li>git init : git 로컬 저장소 만들기</li>
 <li>git add <파일명> : git add . 은 모든 폴더/파일을 staging 추가</li>
 <li>git commit -m '커밋 메시지' :  local repository에 추가(커밋 메시지 필수 입력)</li>
 <li>git remote add origin <원격저장소URL> : 저장할 원격저장소 URL 복사하여 붙여넣기</li>
